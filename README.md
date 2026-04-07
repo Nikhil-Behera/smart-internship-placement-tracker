@@ -1,1 +1,1 @@
-"# Smart Internship & Placement Tracker" 
+# Smart Internship & Placement Tracker
