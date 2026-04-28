@@ -1,0 +1,24 @@
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(4px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  padding: 24px;
+}
+
+.modal-overlay .glass-card {
+  width: 100%;
+  max-width: 600px;
+  background: var(--bg-primary);
+}
+
+.flex-1 {
+  flex: 1;
+}

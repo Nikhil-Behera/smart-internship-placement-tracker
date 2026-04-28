@@ -1,0 +1,61 @@
+.profile-card {
+  max-width: 800px;
+}
+
+.section-title {
+  font-size: 1.1rem;
+  color: var(--text-secondary);
+  border-bottom: 1px solid var(--border-color);
+  padding-bottom: 8px;
+  margin-bottom: 16px;
+  margin-top: 24px;
+}
+
+.section-title:first-of-type {
+  margin-top: 0;
+}
+
+.alert-success {
+  background: rgba(16, 185, 129, 0.1);
+  color: var(--success);
+  border: 1px solid rgba(16, 185, 129, 0.2);
+}
+
+.mb-4 { margin-bottom: 24px; }
+.mt-4 { margin-top: 24px; }
+
+.openings-list {
+  display: grid;
+  gap: 16px;
+}
+
+.opening-card {
+  border: 1px solid var(--border-color);
+  border-radius: 10px;
+  padding: 16px;
+  background: rgba(0, 0, 0, 0.12);
+}
+
+.opening-head {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.opening-head h4 {
+  margin: 0;
+}
+
+.opening-company {
+  font-weight: 600;
+}
+
+.opening-meta {
+  margin-top: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+}
